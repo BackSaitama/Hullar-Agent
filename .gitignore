@@ -1,0 +1,31 @@
+# ⚠️ GİZLİ — bunlar GitHub'a GİTMESİN (token/şifre içerir)
+.env
+data/telegram.json
+data/*.json
+data/indirilen/
+data/*.jpg
+data/*.png
+data/*.mp4
+data/*.gif
+data/*.ogg
+data/*.wav
+
+# Python / venv
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# Üretilen geçici dosyalar
+actions/generated/
+data/macros/
+*.tmp
+
+# ⚠️ KİŞİSEL runtime verisi (komut geçmişi, istatistik, hafıza) — GİTMESİN
+memory/*.json
+memory/*.jsonl
+memory/*.db
+data/overlay_msg.txt
+
+# Windows kısayolları (kişisel)
+*.lnk

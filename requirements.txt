@@ -1,0 +1,36 @@
+# HULLAR — bağımlılıklar / dependencies
+# Kurulum / install:  pip install -r requirements.txt
+
+# Çekirdek / core
+python-dotenv
+requests
+
+# Otomasyon (fare/klavye/pencere/pano) / automation
+pyautogui
+pygetwindow
+pyperclip
+pywinauto
+keyboard
+pynput
+
+# Sistem bilgisi / system info
+psutil
+pywin32
+
+# Ses / audio (volume, TTS, STT)
+pycaw
+edge-tts
+SpeechRecognition
+sounddevice
+numpy
+
+# Görü / vision (ekran, kamera, OCR)
+mss
+Pillow
+opencv-contrib-python
+pytesseract
+
+# ── İsteğe bağlı AI SDK (opsiyonel) ──────────────────────────────
+# Ollama / Gemini / Claude / OpenAI / OpenRouter REST ile çalışır,
+# ek SDK gerektirmez. Gemini SDK'sını istersen aç:
+# google-generativeai
